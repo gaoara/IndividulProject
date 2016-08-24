@@ -1,0 +1,45 @@
+.view {
+	
+}
+
+#bdpane{
+	-fx-background-color :  rgb(255,255,255);
+}
+
+#topPane{
+	-fx-background-color : rgb(0,161,224);
+}
+
+#bottomPane{
+	-fx-background-color : rgb(0,161,224);
+}
+
+#imgpane{
+	-fx-background-image: url("/puzzle.png");
+	-fx-padding: 20px;
+}
+
+Button{
+	-fx-background-color : rgb(71,217,191);  
+	-fx-text-alignment: center ;
+	-fx-text-fill: white;
+	-fx-font-size: 30px;
+}
+
+
+Label{
+	-fx-text-alignment: center ;
+	-fx-text-fill: black ;
+	-fx-font-size: 15px;
+	
+}
+
+#textField{
+	-fx-font-size: 15px;
+	-fx-text-fill: gray;
+}
+
+#tbView{
+	-fx-font-size: 20px;
+	-fx-text-fill: gray;
+}

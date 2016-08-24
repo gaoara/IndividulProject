@@ -1,0 +1,40 @@
+.view {
+
+}
+#vBox{
+	-fx-border-color: crimson;
+	-fx-border-radius: 10px;
+	-fx-border-width: 3px;
+	-fx-border-style: dotted;
+	-fx-background-color: antiquewhite;
+}
+#lbl1{
+	-fx-text-fill: chocolate;
+}
+#button{
+	-fx-border-color: skyblue; 
+	-fx-border-width: 3px;
+	-fx-border-radius: 10px 10px;
+	-fx-background-color: anitquewhite;
+	-fx-text-fill: salmon;
+}
+#button1{
+	-fx-border-color: steelblue; 
+	-fx-border-width: 3px;
+	-fx-border-radius: 10px 10px;
+	-fx-background-color: anitquewhite;
+	-fx-text-fill: orange;	
+}
+#button2{
+	-fx-border-color: blueviolet; 
+	-fx-border-width: 3px;
+	-fx-border-radius: 10px 10px;
+	-fx-background-color: anitquewhite;
+	-fx-text-fill: red;
+}
+#lblManual{
+	-fx-text-fill: seagreen;
+}
+#lblRank{
+	-fx-text-fill: linear-gradient(orange, purple);
+}

@@ -1,0 +1,28 @@
+.view {
+	
+}
+#AnchorPane{
+	-fx-background-color : rgb(0,161,224);
+}
+
+Button{
+	-fx-background-color : rgb(71,217,191);  
+	-fx-text-alignment: center ;
+	-fx-text-fill: rgb(255,255,255);
+	-fx-font-size: 30px;
+}
+
+#Pane{
+	-fx-background-image : url("/name1.png");
+}
+
+Label{
+	-fx-text-alignment: center ;
+	-fx-text-fill: rgb(255,255,255);
+	
+}
+
+#textField{
+	-fx-font-size: 20px;
+	-fx-text-fill: gray;
+}

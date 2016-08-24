@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url('../img/background.png');
+	text-align: center;
+}
+
+p {
+/* 	background-color: red; */
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.margin_top {
+	margin-top: 30px;
+}
+
+/* @media screen and (min-width:101px) and (max-width: 1200px){ */
+	video {
+		border: 5px solid black;
+		width: 500px;
+		margin:  0 auto;
+	}
+	
+	p, h2 {
+	text-align: left;
+	margin-left: 20px;
+	}
+/* } */
+
+/* @media screen and (min-width:1201px) { */
+/* 	video { */
+/* 		border: 5px solid black; */
+/* 		width: 700px; */
+/* 		margin:  0 auto; */
+/* 	} */
+	
+/* 	p, h2 { */
+/* 	text-align: left; */
+/* 	margin-left: 80px; */
+/* 	} */
+/* } */

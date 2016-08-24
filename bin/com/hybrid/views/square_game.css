@@ -1,0 +1,66 @@
+
+.view {
+	
+}
+
+#bdpane{
+	-fx-background-color :  rgb(255,255,255);
+}
+
+#topPane{
+	-fx-background-color : rgb(0,161,224);
+}
+
+#bottomPane{
+	-fx-background-color : rgb(0,161,224);
+}
+
+#imgpane{
+	-fx-background-image: url("/puzzle.png");
+	-fx-padding: 20px;
+}
+
+#pane{
+	-fx-background-image: url("/gametitle.png");
+}
+
+Button{
+	-fx-background-color : rgb(71,217,191);   
+	-fx-text-alignment: center ;
+	-fx-text-fill: white ;
+	-fx-font-size: 30px;
+}
+
+
+Label{
+	-fx-text-alignment: center ;
+	-fx-text-fill: white ;
+	-fx-font-size: 30px;
+	-fx-alignment: center;
+}
+
+#username{
+	-fx-text-fill: gray ;
+}
+
+#textField{
+	-fx-font-size: 20px;
+	-fx-text-fill: gray;
+	
+}
+
+#history{
+	-fx-background-image: url("/history.png");
+}
+
+TextField{
+	-fx-font-size: 35px;
+	-fx-alignment: center;
+	-fx-border-color: rgb(242,209,64);
+	-fx-border-style: solid ;
+	-fx-border-width: 3px;
+}
+
+GridPane {
+
+}

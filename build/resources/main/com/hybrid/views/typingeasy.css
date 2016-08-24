@@ -1,0 +1,22 @@
+.view {
+
+}
+#btnStart{
+		-fx-text-fill: salmon;
+}
+#btnMain{
+	-fx-text-fill: steelblue;
+}
+#txtField{
+	-fx-background-color: antiquewhite;
+	-fx-text-fill: cornflowerblue;
+}
+BorderPane{
+	-fx-background-color: rgb(192,201,171);
+}
+AnchorPane{
+	-fx-border-color: black;
+   	-fx-border-style: solid;
+   	-fx-border-width: 2px;
+   	-fx-background-color: antiquewhite;
+}

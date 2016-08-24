@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="BorderPane" fx:id="root2" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hybrid.controllers.HorseRacingController">
+   <bottom>
+      <HBox prefHeight="21.0" prefWidth="804.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Pane id="back" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="693.0" stylesheets="@horseracing.css">
+               <children>
+                  <Button fx:id="one_button" mnemonicParsing="false" text="1번마베팅" translateX="79.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="two_button" mnemonicParsing="false" text="2번마베팅" translateX="148.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="three_button" mnemonicParsing="false" text="3번마베팅" translateX="216.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="four_button" mnemonicParsing="false" text="4번마베팅" translateX="283.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="five_button" mnemonicParsing="false" text="5번마베팅" translateX="352.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="six_button" mnemonicParsing="false" text="6번마베팅" translateX="419.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="seven_button" mnemonicParsing="false" text="7번마베팅" translateX="487.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="eight_button" mnemonicParsing="false" text="8번마베팅" translateX="555.0" translateY="390.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="next" layoutX="650.0" layoutY="426.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="73.0" text="진행" />
+                  <Button fx:id="button" layoutX="-22.0" layoutY="422.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="73.0" text="메인으로" />
+                  <Rectangle fx:id="one_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="22.0">
+            </Rectangle>
+                  <ImageView fx:id="o1ne" fitHeight="50.0" fitWidth="50.0" layoutX="72.0" layoutY="55.0">
+                     <image>
+                        <Image url="@../../../one.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="two_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="99.5" stroke="BLACK" strokeType="INSIDE" width="22.0" />
+                  <ImageView fx:id="t2wo" fitHeight="50.0" fitWidth="50.0" layoutX="72.0" layoutY="79.5">
+                     <image>
+                        <Image url="@../../../two.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="three_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="22.0" />
+                  <ImageView fx:id="t3hree" fitHeight="45.0" fitWidth="45.0" layoutX="72.0" layoutY="106.0">
+                     <image>
+                        <Image url="@../../../three.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="four_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="148.5" stroke="BLACK" strokeType="INSIDE" width="22.0" />
+                  <ImageView fx:id="f4our" fitHeight="43.0" fitWidth="45.0" layoutX="72.0" layoutY="130.5">
+                     <image>
+                        <Image url="@../../../four.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="five_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" width="22.0" />
+                  <ImageView fx:id="f5ive" fitHeight="45.0" fitWidth="45.0" layoutX="72.0" layoutY="154.0">
+                     <image>
+                        <Image url="@../../../five.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="six_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="197.5" stroke="BLACK" strokeType="INSIDE" width="22.0" />
+                  <ImageView fx:id="s6ix" fitHeight="45.0" fitWidth="45.0" layoutX="72.0" layoutY="178.5">
+                     <image>
+                        <Image url="@../../../six.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="seven_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="22.0" />
+                  <ImageView fx:id="s7even" fitHeight="45.0" fitWidth="45.0" layoutX="72.0" layoutY="203.0">
+                     <image>
+                        <Image url="@../../../seven.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="eight_box" arcHeight="5.0" arcWidth="5.0" fill="#ffa41f" height="23.0" layoutX="83.0" layoutY="246.5" stroke="BLACK" strokeType="INSIDE" width="22.0" />
+                  <ImageView fx:id="e8ight" fitHeight="45.0" fitWidth="45.0" layoutX="72.0" layoutY="228.5">
+                     <image>
+                        <Image url="@../../../eight.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="whitechip" fitHeight="20.0" fitWidth="20.0" layoutX="84.0" layoutY="300.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num" alignment="CENTER" layoutX="82.0" layoutY="298.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip" fitHeight="21.0" fitWidth="21.0" layoutX="114.0" layoutY="300.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip" fitHeight="21.0" fitWidth="21.0" layoutX="84.0" layoutY="325.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip" fitHeight="21.0" fitWidth="21.0" layoutX="114.0" layoutY="325.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip" fitHeight="21.0" fitWidth="21.0" layoutX="114.0" layoutY="350.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip" fitHeight="21.0" fitWidth="21.0" layoutX="84.0" layoutY="350.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num" alignment="CENTER" layoutX="82.0" layoutY="322.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num" alignment="CENTER" layoutX="113.0" layoutY="322.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num" alignment="CENTER" layoutX="82.0" layoutY="349.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num" alignment="CENTER" layoutX="113.0" layoutY="349.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="whitechip2" fitHeight="20.0" fitWidth="20.0" layoutX="152.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num2" alignment="CENTER" layoutX="150.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip2" fitHeight="21.0" fitWidth="21.0" layoutX="182.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip2" fitHeight="21.0" fitWidth="21.0" layoutX="152.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip2" fitHeight="21.0" fitWidth="21.0" layoutX="182.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip2" fitHeight="21.0" fitWidth="21.0" layoutX="182.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip2" fitHeight="21.0" fitWidth="21.0" layoutX="152.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num2" alignment="CENTER" layoutX="150.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num2" alignment="CENTER" layoutX="181.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num2" alignment="CENTER" layoutX="150.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num2" alignment="CENTER" layoutX="181.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="whitechip3" fitHeight="20.0" fitWidth="20.0" layoutX="220.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num3" alignment="CENTER" layoutX="218.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip3" fitHeight="21.0" fitWidth="21.0" layoutX="250.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip3" fitHeight="21.0" fitWidth="21.0" layoutX="220.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip3" fitHeight="21.0" fitWidth="21.0" layoutX="250.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip3" fitHeight="21.0" fitWidth="21.0" layoutX="250.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip3" fitHeight="21.0" fitWidth="21.0" layoutX="220.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num3" alignment="CENTER" layoutX="218.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num3" alignment="CENTER" layoutX="249.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num3" alignment="CENTER" layoutX="218.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num3" alignment="CENTER" layoutX="249.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="whitechip4" fitHeight="20.0" fitWidth="20.0" layoutX="287.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num4" alignment="CENTER" layoutX="285.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip4" fitHeight="21.0" fitWidth="21.0" layoutX="317.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip4" fitHeight="21.0" fitWidth="21.0" layoutX="287.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip4" fitHeight="21.0" fitWidth="21.0" layoutX="317.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip4" fitHeight="21.0" fitWidth="21.0" layoutX="317.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip4" fitHeight="21.0" fitWidth="21.0" layoutX="287.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num4" alignment="CENTER" layoutX="285.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num4" alignment="CENTER" layoutX="316.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num4" alignment="CENTER" layoutX="285.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num4" alignment="CENTER" layoutX="316.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="whitechip5" fitHeight="20.0" fitWidth="20.0" layoutX="355.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num5" alignment="CENTER" layoutX="353.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip5" fitHeight="21.0" fitWidth="21.0" layoutX="385.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip5" fitHeight="21.0" fitWidth="21.0" layoutX="355.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip5" fitHeight="21.0" fitWidth="21.0" layoutX="385.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip5" fitHeight="21.0" fitWidth="21.0" layoutX="385.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip5" fitHeight="21.0" fitWidth="21.0" layoutX="355.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num5" alignment="CENTER" layoutX="353.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num5" alignment="CENTER" layoutX="384.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num5" alignment="CENTER" layoutX="353.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num5" alignment="CENTER" layoutX="384.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="whitechip6" fitHeight="20.0" fitWidth="20.0" layoutX="422.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num6" alignment="CENTER" layoutX="420.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip6" fitHeight="21.0" fitWidth="21.0" layoutX="452.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip6" fitHeight="21.0" fitWidth="21.0" layoutX="422.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip6" fitHeight="21.0" fitWidth="21.0" layoutX="452.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip6" fitHeight="21.0" fitWidth="21.0" layoutX="452.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip6" fitHeight="21.0" fitWidth="21.0" layoutX="422.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num6" alignment="CENTER" layoutX="420.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num6" alignment="CENTER" layoutX="451.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num6" alignment="CENTER" layoutX="420.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num6" alignment="CENTER" layoutX="451.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="whitechip7" fitHeight="20.0" fitWidth="20.0" layoutX="492.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num7" alignment="CENTER" layoutX="490.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip7" fitHeight="21.0" fitWidth="21.0" layoutX="522.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip7" fitHeight="21.0" fitWidth="21.0" layoutX="492.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip7" fitHeight="21.0" fitWidth="21.0" layoutX="522.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip7" fitHeight="21.0" fitWidth="21.0" layoutX="522.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip7" fitHeight="21.0" fitWidth="21.0" layoutX="492.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num7" alignment="CENTER" layoutX="490.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num7" alignment="CENTER" layoutX="521.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num7" alignment="CENTER" layoutX="490.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num7" alignment="CENTER" layoutX="521.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="whitechip8" fitHeight="20.0" fitWidth="20.0" layoutX="559.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="whitechip_num8" alignment="CENTER" layoutX="557.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="redchip8" fitHeight="21.0" fitWidth="21.0" layoutX="589.0" layoutY="301.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../redchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bluechip8" fitHeight="21.0" fitWidth="21.0" layoutX="559.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../bluechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="greenchip8" fitHeight="21.0" fitWidth="21.0" layoutX="589.0" layoutY="326.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../greenchip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="purplechip8" fitHeight="21.0" fitWidth="21.0" layoutX="589.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../purplechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="orangechip8" fitHeight="21.0" fitWidth="21.0" layoutX="559.0" layoutY="351.0" style="-fx-opacity: 0;">
+                     <image>
+                        <Image url="@../../../orangechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="bluechip_num8" alignment="CENTER" layoutX="557.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="greenchip_num8" alignment="CENTER" layoutX="588.0" layoutY="323.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="orangechip_num8" alignment="CENTER" layoutX="557.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="purplechip_num8" alignment="CENTER" layoutX="588.0" layoutY="350.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num" alignment="CENTER" layoutX="112.0" layoutY="298.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num7" alignment="CENTER" layoutX="520.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num6" alignment="CENTER" layoutX="450.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num5" alignment="CENTER" layoutX="383.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num4" alignment="CENTER" layoutX="315.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num2" alignment="CENTER" layoutX="180.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num3" alignment="CENTER" layoutX="248.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <Label fx:id="redchip_num8" alignment="CENTER" layoutX="587.0" layoutY="299.0" prefHeight="25.0" prefWidth="24.0" style="-fx-opacity: 0;" text="1" />
+                  <ImageView fx:id="mychip" fitHeight="20.0" fitWidth="20.0" layoutX="275.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip2" fitHeight="20.0" fitWidth="20.0" layoutX="285.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip3" fitHeight="20.0" fitWidth="20.0" layoutX="295.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip4" fitHeight="20.0" fitWidth="20.0" layoutX="305.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip5" fitHeight="20.0" fitWidth="20.0" layoutX="315.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip6" fitHeight="20.0" fitWidth="20.0" layoutX="325.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip7" fitHeight="20.0" fitWidth="20.0" layoutX="335.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip8" fitHeight="20.0" fitWidth="20.0" layoutX="345.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip9" fitHeight="20.0" fitWidth="20.0" layoutX="355.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip10" fitHeight="20.0" fitWidth="20.0" layoutX="365.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip11" fitHeight="20.0" fitWidth="20.0" layoutX="375.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip12" fitHeight="20.0" fitWidth="20.0" layoutX="385.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip13" fitHeight="20.0" fitWidth="20.0" layoutX="395.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip14" fitHeight="20.0" fitWidth="20.0" layoutX="405.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip15" fitHeight="20.0" fitWidth="20.0" layoutX="415.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip16" fitHeight="20.0" fitWidth="20.0" layoutX="425.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip17" fitHeight="20.0" fitWidth="20.0" layoutX="435.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip18" fitHeight="20.0" fitWidth="20.0" layoutX="445.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip19" fitHeight="20.0" fitWidth="20.0" layoutX="455.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mychip20" fitHeight="20.0" fitWidth="20.0" layoutX="465.0" layoutY="445.0" style="-fx-opacity: 1;">
+                     <image>
+                        <Image url="@../../../whitechip.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="188.0" layoutY="438.0" prefHeight="33.0" prefWidth="74.0" text="남은 칩 :" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Label id="title" fx:id="RacingTitle" alignment="CENTER" contentDisplay="CENTER" prefHeight="53.0" prefWidth="428.0" text="MAINMATCH : 사기경마" textFill="WHITE" textOverrun="CLIP" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="35.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="30.0" />
+         </BorderPane.margin></Label>
+   </top>
+</BorderPane>

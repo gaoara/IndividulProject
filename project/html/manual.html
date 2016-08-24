@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html id="Home">
+<head>
+<meta charset="UTF-8">
+<title>Manual</title>
+<link rel="stylesheet" type="text/css" href="CSS/manual.css">
+<link rel="stylesheet" type="text/css" href="http://s.mlcdn.co/animate.css">
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+</head>
+<body>
+<header>
+	<div class="grid">
+		<div class="grid__item">
+			<a class="link link--yaku" href="#Home">
+				<span>T</span><span>y</span><span>p</span><span>i</span><span>n</span><span>g</span>
+				<span>G</span><span>a</span><span>m</span><span>e</span>
+				<span>M</span><span>a</span><span>n</span><span>u</span><span>a</span><span>l</span>					
+			</a>
+		</div>
+	</div>
+</header>
+<hr>
+<section>
+	<article>
+		<span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">☰ Menu</span>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">�</a>
+			<a href="#Home">Home</a>
+			<a href="#info">Game Info</a>
+			<a href="#start">How to start?</a>
+			<a href="#play">How to play?</a>
+		</div>
+	</article>
+	<aside>
+		<div id="info">
+			<h1 class="asidetitle">GAME INFO</h1>
+			<div class="infoAni">
+				<h2>1. <strong>Typing Game</strong>이란?</h2>
+				<p id="infoP" class="infoP">
+					화면에서 내려오는 글자와 똑같은 낱말을 입력하여 점수를 얻는 게임.
+				</p>
+				<h2>2. <strong>화면구성</strong></h2>
+				<p id="infoP" class="infoP">메인<br>
+					<img src="img/Main.png">
+						<p class="infoul">
+							1. Easy모드 게임실행<br>
+							2. Normal모드 게임실행<br>
+							3. Hard모드 게임실행<br>
+							4. 설명서 보기<br>
+							5. 랭킹 보기<br>
+						</p>
+				<p id="infoP" class="infoP Main">게임화면<br>
+					<img src="img/gamePage.png"></p>
+						<p class="infoul1">
+							1. 목숨<br>
+							2. 게임 시작<br>
+							3. 정지<br>
+							4. 메인으로 돌아가기<br>
+							5. 점수<br>
+							6.낱말 타이핑<br>
+						</p>
+			</div>
+		</div>
+	</aside>
+	<aside>
+		<div id="start">
+			<h1 class="asidetitle">How to start?</h1>
+			<div id="startAni" class="startAni">
+				<p class="startP" id="startP">
+					<h2>1. 게임 난이도를 선택합니다.</h2>
+				<p class="startP"><img src="img/HowtoStart.png">
+				<p class="startP" id="startP">
+					<h2>2.Start버튼을 클릭합니다.</h2>
+				<p class="startP"><img src="img/Start.png">
+			</div>
+		</div>
+	</aside>
+	<aside>
+		<div id="play">
+			<h1 class="asidetitle">How to play?</h1>
+			<div class="playAni">
+				<p id="playP" class="playP">
+					<img src="img/runPage.png"><br>
+					<img src="img/getScore.png"><br>
+					<img src="img/lostHeart.png"><br>
+					<img src="img/EndPage.png"><br>
+					<img src="img/endGame.png"><br>
+				</p>
+			</div>
+		</div>
+	</aside>
+</section>
+<footer>
+</footer>
+</body>
+</html>

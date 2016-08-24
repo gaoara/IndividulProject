@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="bp" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hybrid.controllers.MatchingController">
+   <top>
+      <HBox id="top" fx:id="topbox" alignment="CENTER" prefHeight="58.0" prefWidth="650.0" style="-fx-background-color: #FAF4C0;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="main" styleClass="main" text="The pair of game">
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox id="bottom" fx:id="bottombox" alignment="CENTER" prefHeight="58.0" prefWidth="200.0" style="-fx-background-color: #FAF4C0;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btn1" mnemonicParsing="false" styleClass="start" text="START">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btn2" mnemonicParsing="false" styleClass="start" text="RESTART" />
+         </children>
+      </HBox>
+   </bottom>
+   <right>
+      <VBox fx:id="rightbox" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="rb" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="manual" alignment="CENTER_RIGHT" mnemonicParsing="false" styleClass="manual" text="?" />
+         </children>
+      </VBox>
+   </right>
+   <center>
+      <GridPane fx:id="gp" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="633.0" prefWidth="432.0" styleClass="btn11" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+          <ColumnConstraints hgrow="SOMETIMES" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+          <RowConstraints vgrow="SOMETIMES" />
+        </rowConstraints>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <ImageView fx:id="imgv32" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="iv1" GridPane.rowIndex="1">
+            </ImageView>
+            <ImageView fx:id="imgv33" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+            
+            </ImageView>
+            <ImageView fx:id="imgv34" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
+              
+            </ImageView>
+            <ImageView fx:id="imgv35" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+              
+            </ImageView>
+            <ImageView fx:id="imgv36" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            
+            </ImageView>
+            <ImageView fx:id="imgv30" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+             
+            </ImageView>
+            <ImageView fx:id="imgv2" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+             
+            </ImageView>
+            <ImageView fx:id="imgv1" fitHeight="80.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgv1">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="imgv3" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
+              
+            </ImageView>
+            <ImageView fx:id="imgv4" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+             
+            </ImageView>
+            <ImageView fx:id="imgv5" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+              
+            </ImageView>
+            <ImageView fx:id="imgv6" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               
+            </ImageView>
+            <ImageView fx:id="imgv7" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+              
+            </ImageView>
+            <ImageView fx:id="imgv8" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="4">
+            
+            </ImageView>
+            <ImageView fx:id="imgv9" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               
+            </ImageView>
+            <ImageView fx:id="imgv10" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+             
+            </ImageView>
+            <ImageView fx:id="imgv11" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               
+            </ImageView>
+            <ImageView fx:id="imgv12" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+               
+            </ImageView>
+            <ImageView fx:id="imgv13" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               
+            </ImageView>
+            <ImageView fx:id="imgv14" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               
+            </ImageView>
+            <ImageView fx:id="imgv15" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               
+            </ImageView>
+            <ImageView fx:id="imgv16" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               
+            </ImageView>
+            <ImageView fx:id="imgv17" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               
+            </ImageView>
+            <ImageView fx:id="imgv18" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               
+            </ImageView>
+            <ImageView fx:id="imgv19" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               
+            </ImageView>
+            <ImageView fx:id="imgv20" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               
+            </ImageView>
+            <ImageView fx:id="imgv21" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               
+            </ImageView>
+            <ImageView fx:id="imgv22" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               
+            </ImageView>
+            <ImageView fx:id="imgv23" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               
+            </ImageView>
+            <ImageView fx:id="imgv24" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               
+            </ImageView>
+            <ImageView fx:id="imgv25" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               
+            </ImageView>
+            <ImageView fx:id="imgv26" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               
+            </ImageView>
+            <ImageView fx:id="imgv27" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               
+            </ImageView>
+            <ImageView fx:id="imgv28" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               
+            </ImageView>
+            <ImageView fx:id="imgv29" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               
+            </ImageView>
+            <ImageView fx:id="imgv31" fitHeight="94.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               
+            </ImageView>
+         </children>
+      </GridPane>
+   </center>
+   <left>
+      <VBox fx:id="leftbox" prefHeight="200.0" prefWidth="100.0" styleClass="lb" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>

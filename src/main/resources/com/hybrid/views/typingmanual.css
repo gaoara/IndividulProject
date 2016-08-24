@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+Button{
+	-fx-background-color: antiquewhite;
+	-fx-text-fill: steelblue;
+}
